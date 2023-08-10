@@ -1,39 +1,9 @@
-# Ignore core WordPress files
-wp-config.php
-wp-content/
 
-# !wp-content/plugins/your-plugin-folder/
+# Ignore everything
+*
+
+# Except specific files and folders
 !wp-content/themes/astra-child/
-
-# Ignore environment files
-.env
-.env.*
-
-# Ignore backup and temporary files
-*.bak
-*.swp
-*.tmp
-Thumbs.db
-.DS_Store
-
-# Ignore logs and cache
-*.log
-*.cache
-.log.
-
-# Ignore build and compiled files
-/dist/
-/build/
-/node_modules/
-
-# Ignore editor-specific backup files
-*~
-*.~
-*.bak
-
-# Ignore project specific files
-.idea/
-.vscode/
 
 
 
